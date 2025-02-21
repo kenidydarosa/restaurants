@@ -4,8 +4,32 @@
       "mode": "auto"
     }
   ],
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable.other.property",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "variable.other.object.property",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
   }
 }
+
